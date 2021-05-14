@@ -85,7 +85,7 @@ function computation(operatorValue) {
       calculatedValue = prevNumber / currentNumber;
       break;
     default:
-      calculatedValue = undefined;
+      calculatedValue = "";
   }
   currentOperand = calculatedValue;
   prevOperand = "";
